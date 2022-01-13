@@ -3,3 +3,43 @@
 * {
   font-family: "Karla", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  position: relative;
+
+  background-color: greenyellow;
+}
+
+.header__navigation {
+  background-color: rebeccapurple;
+
+  position: absolute;
+  left: 20%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+
+  background-color: lavender;
+}
+
+.formsContainer {
+  background-color: salmon;
+}
